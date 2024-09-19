@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conecta T Bombero</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+  * {
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  border: 5px solid #ce0e2d ;
+  margin-left:10px;
+  border-radius: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@font-face{
+font-family: isidora;
+src: local(Isidora-SemiBold);
+}
+
+@font-face{
+font-family: isidora2;
+src: local(Latinotype - Isidora-Light);
+}
+
+
+.dragonlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50%;
+  
+}
+.condragon{
+  
+  box-shadow: 20px 10px 8px 8px white inset;
+}
+
+
+.container1,.container2,.container3{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.img1,.img2,.img3{
+  background: #7b868c;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 20px 30px 30px #7b868c;
+  
+  color: rgb(247, 8, 8);
+  
+}
+li>span {
+font-weight: 500;
+}
+.lang {
+position: sticky;
+color: black;
+text-shadow: red;
+font-weight: 500;
+top: 0px;
+text-align: end;
+z-index: 2;
+}
+a:visited{
+  color: black;
+}
+a:link {
+  color: black;
+}
+a:hover {
+  color: rgb(247, 0, 0);
+}
+a:active {
+  color: black;
+  }
+  .tituloInfo {
+      font-size: 72px;
+  background: -webkit-linear-gradient(#f80f0f, #0c0000);
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+*{
+  font-family: 'Isidora';
+}
+ 
+</style>
+
+<body style="min-width: 600px;" >
+
+  <!-- Title -->
+  
+  <!--<div class="lang"><a href="./index English.html">English</a></div>-->
+     <div class="containerdragon" >
+      <div class="condragon">
+          <img class="dragonlogo"src="images/DDlogo.png" alt="Dark Dragon" width="50%" height="50%">
+      </div>
+         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="margin-left: 1vh;"  >
+        
+        <ul class="nav nav-pills" style="display: flex; justify-content: center; align-items: center;" >
+          
+          <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
+          <li class="nav-item"><a href="#servicios" class="nav-link">Servicios Psicológicos</a></li>
+          <li class="nav-item"><a href="./Talleres.html" class="nav-link">Talleres</a></li>
+          <li class="nav-item"><a href="./Desactivaciones.html" class="nav-link">Desactivaciones Psicológicas</a></li>
+          <li class="nav-item"><a href="./testcontaclayout.html" class="nav-link">Contáctanos</a></li>
+          
+        </ul>
+      </header>
+    </div>
+    
+  </section>
+  <div class="tituloInfo">
+    <h1>Apoyo para quienes nos apoyan</h1>
+    
+  </div>
+  <!-- Informacion -->
+  <section id="info">
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        
+        <div class="container1">
+          <img class="img1" src="./images/gbg.jpg" alt="gray background" width="80%" height="500px" >
+          <div class="carousel-caption text-start" style="text-align: justify; margin-top: 5%;">
+            <h1>Beneficiarios del apoyo psicológico</h1>
+            <p class="opacity-100">La Coordinación Municipal de Protección Civil y Bomberos de Zapopan 
+              ofrece un servicio de psicología integral dirigido no solo a los elementos que conforman 
+              esta valiente institución, sino también a sus familiares directos, quienes a menudo 
+              experimentan de manera indirecta las exigencias y tensiones propias de esta profesión.</p>
+            <p class="opacity-100"><span style="color:rgb(255, 255, 255);font-weight:bold">El principal grupo de beneficiarios de este servicio son los familiares 
+              directos de los bomberos y personal de protección civil, particularmente los hijos y padres.</span> 
+              Estos familiares desempeñan un papel crucial en el bienestar emocional y mental de los servidores
+               públicos, ya que brindan el apoyo y la contención necesaria en el entorno personal. Sin embargo, 
+               también enfrentan sus propios desafíos emocionales debido a la naturaleza riesgosa y estresante del 
+               trabajo de sus seres queridos.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color:#ce0e2d;" href="./testcontaclayout.html">Contactanos</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item " >
+        
+        <div class="container2">
+         <img class="img2" src="./images/gbg.jpg" alt="picture of team" width="80%" height="500px"> 
+          <div class="carousel-caption" style="text-align: justify;">
+            
+            <p>Los hijos, por ejemplo, pueden experimentar ansiedad o temor ante los peligros que sus padres 
+              enfrentan diariamente, mientras que los padres, por su parte, pueden lidiar con preocupaciones
+              constantes sobre la seguridad y bienestar de sus hijos que trabajan en esta profesión. Por ello, 
+              el servicio de psicología se enfoca en ofrecer un espacio seguro y confidencial donde puedan
+              expresar sus emociones, aprender técnicas de manejo del estrés y recibir orientación para 
+              fortalecer sus relaciones familiares.</p>
+            <p class="opacity-100">Además de los hijos y padres, el servicio también está disponible para 
+              otros miembros de la familia que convivan estrechamente con el personal de Protección Civil 
+              y Bomberos. El objetivo es crear un entorno familiar más resiliente, donde todos los miembros
+              estén emocionalmente preparados para enfrentar los retos que conlleva estar vinculados a una
+              profesión tan demandante.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color:#ce0e2d;"  href="./testcontaclayout.html">Contactanos</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">               
+         <div class="container3">
+          <img class="img3" src="./images/gbg.jpg" alt="picture of team" width="80%" height="500px" justify-content="center">
+          <div class="carousel-caption text-start" style="text-align: justify;">
+            <h1>¿Listo para comenzar?</h1>
+            <p>En conclusión, el servicio de psicología en la Coordinación Municipal de Protección Civil y Bomberos de Zapopan 
+              se presenta como un recurso vital para los familiares directos del personal, reconociendo que su bienestar emocional
+              es fundamental para el equilibrio general de los servidores públicos y para la cohesión familiar en contextos
+              de alto estrés.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color:#ce0e2d;" href="./testcontaclayout.html">Contactanos</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </section>
+  <!-- Servicios Psicologicos -->
+<hr>
+  <!-------------------------------------------------------------------------------------------------------------------------------->
+  <div><section id="servicios"></section></div>
+
+  <div class="row" style="display: flex;  justify-content: center;">
+    
+    <div class="column" style="background-color:white; text-align: center;">
+      <h1 style="font-size-adjust: .4">Evaluación psicológica:</h1>
+      
+      <p> Es una herramienta utilizada para evaluar el comportamiento de una persona mediante entrevistas, 
+        tests, registros y otras observaciones. De esta manera, es posible integrar medidas y trabajar 
+        soluciones eficaces para tratar los problemas psicológicos que se hayan observado durante la evaluación.</p><br>
+       
+    </div>
+    <div class="column" style="background-color:white; display: flex; justify-content: center; align-items: center;">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid"  width="300" height="300" src="./images/evalpsi.jpeg" role="img" aria-label="Placeholder: 500x500" preserveaspectratio="xMidYMid slice" focusable="false">    </div>
+  </div>
+<div class="textterpi" style="margin-left:2%; margin-top: 2vh;"> <h1>Terapia Psicológica Individual</h1>
+        <h2> ¿Qué señales me indican que debo buscar apoyo profesional? </h2><br>
+        <p>Aunque algunas parecen más obvias, otras nos ayudarán a reflexionar 
+          acerca de cuándo puede ser un buen momento para hacer una cita en 
+          el área de psicología y decidirnos a realizar los cambios necesarios 
+          en nuestra vida.</p> <br>
+        <ol>
+            <li>Hemos sufrido una pérdida.</li>
+            <li>Nos estamos enfrentando a un cambio en nuestra vida.</li>
+            <li>Aprender a manejar emociones.</li>
+            <li>Evitar pensamientos negativos o dañinos.</li>
+            <li>Superar un temor.</li>
+            <li>Recuperar la motivación por aquello que antes nos hacía sentir bien.</li>
+            <li>Evitar tener que recurrir a otras alternativas que pueden ser dañinas.</li>
+            <li>Nos sentimos solos.</li>
+            <li>Mejorar nuestra relación sentimental o de pareja.</li>
+            <li>Aprender a tomar el control (o aceptar que no lo tenemos).</li>
+            <li>Dormir mejor.</li>
+            <li>Simplemente hablar con alguien.</li>
+        </ol>  
+</div>
+
+<hr>
+  <!-------------------------------------------------------------------------------------------------------------------------------->
+  
+<div class="psi1">
+  <div><h1 style="text-align: center;"><b>¿Necesitas terapia? 8 puntos a considerar:</b></h1>
+  <p >
+    <ol style="text-align: justify;">
+      <li><b>Un evento traumático sigue teniendo un impacto en tu vida actual:</b><br> 
+        El dolor de una muerte de un ser querido, la pérdida de trabajo pueden ser razón suficiente para buscar apoyo psicológico. 
+        </li>
+      <li><b>Sufres de dolores recurrentes de cabeza, estómago, o bajas defensas que no tienen explicación médica:</b><br>
+        Los problemas emocionales tienden a manifestarse en nuestros cuerpos. El estrés, o el malestar emocional, por ejemplo, puede manifestarse de muchas formas en nuestra relación con la comida, en dolores crónicos de estómago y cabeza, y resfríos frecuentes o disminución del apetito sexual.
+        </li>
+      <li><b>Ya no encuentras disfrute en las actividades que solías hacer con gusto: </b><br>
+        Si ya no disfrutas igual ver a tus amigos o seres queridos, o ir a tus lugares favoritos, puede ser una señal que algo anda mal. Si sientes una desilusión generalizada, y tienes la sensación de que no tiene sentido hacer ya las cosas, o te sientes infeliz, ir con un psicólogo puede ayudarte a volver a conectarte con tus emociones y a volver a andar tu camino.
+        </li>
+      <li><b>Tus vínculos con los demás están deteriorados:</b><br> 
+        Si sientes descontento en tus relaciones con tus seres queridos, ya sea tu pareja, tus hijos, hermanos o padres, o bien ya no te sientes a gusto en tu grupo de amigos y tienes dificultades para comunicar como realmente te sientes. 
+        </li>
+      <li><b>Las personas que te rodean han expresado su inquietud por tu estado emocional:</b><br>
+        A veces simplemente ignoramos los signos más obvios en nuestras vidas. El comentario 
+        de un buen amigo o de nuestra esposa, y la recomendación de buscar ayuda. Pudo haber 
+        sido un amigo que se acercara y dijera por aparte "¿Oye, te sientes bien? Me he percatado 
+        de que has tenido problemas últimamente, tal vez deberías hablar con alguien". O tu pareja 
+        la que te dijo: "Mira, necesitas ayuda. No has estado bien de humor últimamente. Nada de 
+        lo que haga te ayuda, de hecho, la relación va empeorando." Muchas veces las personas que 
+        nos conocen y nos observan pueden detectar signos difíciles de detectar por nuestra cuenta, 
+        por lo que es importante estar atento a las perspectivas que los otros tienen sobre ti.
+        </li>
+      <li><b>Utilizas sustancias para escapar de tus problemas; </b><br>
+        Si has bebido o utilizado drogas más frecuentemente o en mayor 
+        cantidad, incluso pensado en utilizarlas, o has tenido cambios 
+        de apetito notables, tanto el deseo de comer excesivamente como 
+        la falta de apetito, estos pueden ser signos de que quieres hacer 
+        desaparecer emociones o impulsos que es necesario atender.</li>
+      <li><b>Experimentas incomodidad en tu rutina diaria: </b><br>
+        Si sientes que un problema causa problemas significativos en el 
+        funcionamiento de tu vida diaria, ya sea en el trabajo, en casa, 
+        en la escuela o en otro lugar, es una señal que te beneficiaría 
+        ir al psicólogo. Tal vez tu concentración está dispersa, tu entusiasmo 
+        y empuje para lograr cosas ha desaparecido. Tal vez evitas la 
+        interacción con tus compañeros de clase o de trabajo. O simplemente 
+        tal vez te sienes abrumado en general. Si este malestar persiste por 
+        semanas es una clara señal de que es tiempo de buscar ayuda.</li>
+      <li><b>Nada ha cambiado a pesar de tus esfuerzos: </b><br>
+        A veces nuestras habilidades para lidiar con las dificultades no 
+        son suficiente. Simplemente dejan de funcionar o se hacen menos 
+        efectivas que en el pasado. Si has intentado varias cosas para 
+        salir adelante, como hablar con un amigo, hacer más ejercicios, 
+        realizar técnicas de auto-ayuda, y no has conseguido mayor diferencia, 
+        esta es una señal de que es momento de hablar con un terapeuta.</li>
+    </ol>
+  </p>
+  </div>
+  <!-------------------------------------------------------------------------------------------------------------------------------->
+  <div class="row featurette" style="display: flex; justify-content: center; align-items: center; text-align: center;">
+    <p><b>Estos objetivos son flexibles y se adaptan a las necesidades 
+            específicas de cada pareja, con el fin de promover una relación más sana, 
+            satisfactoria y duradera.<br>
+            A parte, la psicología de pareja, no solo se encarga de solucionar conflictos 
+            para que los miembros disfruten de una relación amorosa estable y satisfactoria, 
+            sino que también se ocupa de diagnosticar y tratar casos en los que la mejor 
+            solución es una separación, acompañando a las personas afectadas en ese proceso y 
+            orientándolas para que sea lo menos traumático posible.</b></p>
+    
+    
+  </div>
+  <hr>
+ <!-------------------------------------------------------------------------------------------------------------------------------->   
+  
+  <div class="row featurette" style="margin-left: 10%;">
+    <div class="col-md-7 order-md-2" >
+      <h2>Terapia familiar:</h2>
+      
+      <p class="lead3" style="text-align: justify;">El objetivo de dicha terapia es el promover un ambiente familiar, saludable, armonioso y de mutuo apoyo, 
+        centrándose en el tratamiento de problemas y conflictos dentro de la familia, basándose en la idea de que a familia es 
+        un sistema interconectado y que por esta razón los problemas de un miembro, le afectan a los que la integran. </p><br>
+        <hr>
+        <h3>El psicólogo trabaja con los miembros de la familia, para:</h3><br>
+        
+        <p>
+          <ol>
+            <li>Identificar patrones de comunicación y comportamientos problemáticos</li>
+            <li>Aborda conflictos y tensiones</li>
+            <li>Mejora la comunicación y la resolución de conflictos</li>
+            <li>Fortalece los lazos y la cohesión familiar</li>
+            <li>Apoya a la familia en la superación de crisis o dificultades </li>
+          </ol>
+        </p>
+    </div>
+    <div class="col-md-5 order-md-1" > 
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600" height="600" src="./images/family1.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></img>
+    </div>
+  </div>
+<!-------------------------------------------------------------------------------------------------------------------------------->
+<hr>
+<div class="row featurette">
+  <div class="col-md-7" style=" margin-left: 2%;">
+    <h2 class="featurette-heading fw-normal lh-1">Terapia de grupo: </h2>
+    <p class="lead" style="text-align: justify; font-size: medium; margin-right: 5%;">Es una forma de tratamiento psicológico en la que un grupo de personas se reúne, bajo la dirección de uno o más terapeutas, 
+      para abordar problemas emocionales, conductuales o relacionales comunes. Los participantes comparten sus experiencias y apoyan a los demás, 
+      creando un entorno de aprendizaje y crecimiento mutuo.</p><br>
+      <h2>Objetivos de la Terapia de Grupo:</h2><br>
+      <ol style="padding-right:5%;">
+        <li>Apoyo Mutuo: Fomentar el sentido de comunidad, donde los miembros se sienten comprendidos y menos aislados en sus desafíos.</li>
+        <li>Desarrollo de Habilidades Sociales: Mejorar la comunicación y las relaciones interpersonales mediante la interacción y el feedback en el grupo.</li>
+        <li>Catarsis: Proporcionar un espacio seguro para expresar emociones y aliviar la tensión acumulada.</li>
+        <li>Aprendizaje de Nuevas Perspectivas: Escuchar las experiencias de otros puede ofrecer nuevas formas de ver y manejar los propios problemas</li>
+        
+      </ol>
+   
+  </div>
+
+  
+    <div class="col">
+    <img src="images/tgrupo.jpg" style="width:500px; height: 400px; margin-left: 5%;" alt="Girl in a jacket" >
+    
+  </div>
+  <!-------------------------------------------------------------------------------------------------------------------------------->
+  <div class="imgA1">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      
+        <h1 class="display-5 fw-bold">Orientación a padres:</h1>
+          <p class="col-md-8 fs-4">
+            <h2>Es un proceso de apoyo y guía que se le ofrece a los padres o tutores con la finalidad de: </h2><br>
+            <ol>
+              <li>Entender mejor a sus hijos y sus necesidades</li>
+              <li>Desarrollar habilidades y estrategias para criar a sus hijos de manera efectiva </li>
+              <li>Abordar desafíos y problemas específicos que surgen en el proceso de crianza de los hijos</li>
+              <li>Fomentar un ambiente familiar positivo y de apoyo</li>
+              <li>Mejorar la comunicación y la relación entre las partes </li>
+            </ol></p>
+        
+      
+    </div>
+</div><hr>
+<!-------------------------------------------------------------------------------------------------------------------------------->
+<div class="row featurette"style="justify-content:center; align-item:center;">
+  <div class="col-md-7" style="margin-left: 2%; width: 90%;">
+    <h2 class="featurette-heading fw-normal lh-1">Integración de equipos de trabajo: </h2>
+    <p class="lead" style="text-align: justify;">Es el proceso de unir a varios individuos con diferentes habilidades, 
+      experiencias y perspectivas para lograr un objetivo común, para ello se necesita 
+      crear un ambiente de colaboración, confianza y comunicación efectiva para alcanzar 
+      las metas propuestas.</p><br>
+      <h2>Los pasos que se requieren para lograr esta integración son: </h2><br>
+      <ol>
+        <li>Establecer objetivos claros y compartidos</li>
+        <li>Fomentar la comunicación abierta y honesta </li>
+        <li>Promover la confianza y el respeto mutuo</li>
+        <li>Establecer roles y responsabilidades de manera clara</li>
+        <li>Proporcionar retroalimentación de manera constructiva y de apoyo </li>
+        <li>Celebrar los logros y aprender de los errores</li>
+        
+      </ol></div></div>
+      <div>
+      <br>
+      <h1>Tambien...</h1>
+   <button onclick="document.location='\Talleres.html'" class="btn btn-primary btn-lg" style="background-color:#ce0e2d ;" type="button">Talleres</button>
+   <button onclick="document.location='\Desactivaciones.html'" class="btn btn-primary btn-lg" style="background-color:#ce0e2d;" type="button">Desactivaciones Psicologicas</button>
+
+  </div>
+
+
+  <div class="col-md-5">
+    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid" style="margin-left:auto; border-radius: 5px; margin-right:1vh; margin-bottom: 1vh; margin-top: 10vh;" width="600" height="500" src="./images/group2.jpg" role="img" aria-label="Placeholder: 500x500" preserveaspectratio="xMidYMid slice" focusable="false">    </div>
+  </div>
+</div>
+<hr>
+</section>
+<!-------------------------------------------------------------------------------------------------------------------------------->
+<footer>
+</div>
+<div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="margin-top: 2vh;"  >
+
+<ul class="nav nav-pills" >
+ <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page" style="background-color: #ce0e2d;">Inicio</a></li>
+</ul></div>
+  <img src="./images/Firma_Ip.png" alt="footer logo" style="width:100%; height:100%;">
+</footer>
+
+
+</body>
+
+</html>
